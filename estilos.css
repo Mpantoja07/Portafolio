@@ -1,0 +1,99 @@
+.bg-gradient-primary{
+    background-color: black;
+}
+
+
+
+.c1{
+    position: relative;
+    top:500px ;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.c2{
+    position: relative;
+    padding-top:850px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.frase{
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.estudio{
+    width: 600px;
+    height: 300px;
+}
+p{ 
+    text-align: justify;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    padding-top: 200px;
+    
+}
+footer p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.logo{
+    margin-left: 0px;
+    width: 150px;
+    height: 150px;
+}
+
+.formulario{
+    padding-top: 60px;
+}
+
+.lj{
+    width: 1330px;
+    height: 500px;
+
+}
+
+
+
+.lñ{
+    width: 300px;
+    height: 400px;
+    margin-left: 130px;
+}
+
+.mg{
+    padding: 50px;
+}
+
+.tat{
+    width: 300px;
+    height: 500px;
+}

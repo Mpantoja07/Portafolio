@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Registro</title> 
+
+</head>
+<body class="bg-gradient-primary ">
+    <header>                        
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <a class="navbar-brand" href="paputatto.html">
+            <img src="multimedia/descarga.png" width="50" height="50" alt="lg"class="d-inline-block align-top" alt="h">
+          PAPU TATTO
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="paputatto.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Tatuajes.html">Tatuajes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="registro.html" tabindex="-1" aria-disabled="true">Registro</a>
+            </li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+                </li>
+               
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Programas 
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="index.html">Portafolio</a>
+                    <a class="dropdown-item" href="paputatto.html">Paputatto</a>
+                    <a class="dropdown-item" href="spotifyArtist.html">Spotify</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"></a>
+                  </div>            
+          </ul>
+          
+        </div>
+      </nav>
+    </header>     
+    <main>
+       <section>  
+         <div class="container">
+           <div class="row">
+             <div class="col-12 col-md-12">
+              <img src="multimedia/Tatuajes_13.jpg" class="img-fluid " alt="Responsive image">
+
+             </div>
+           </div>
+         </div>                
+    </section> 
+    <section>
+          <div class="container ">
+            <div class="row">
+                <div class="col-12 col-md-6 mg">
+                    <p>Al utilizar este sitio web, usted acepta el uso de su información como se describe 
+                    en este Aviso de Privacidad. Por favor, tenga en cuenta que los Sitios Web específicos
+                     de otro país, regional y de práctica contenidos en myapp.com son proporcionados por
+                      otras entidades dentro de la red y no son proporcionados por nosotros. Estos Sitios
+                       Web, así como otros Sitios Web que pueden estar vinculados a este Sitio Web, no se
+                        rigen por este Aviso de Privacidad. Invitamos a los visitantes a revisar cada uno 
+                        de los Avisos de Privacidad de esos otros Sitios Web antes de divulgar cualquier 
+                        información personal. Este Aviso de Privacidad puede ser completado o modificado 
+                        de vez en cuando por los Avisos de Privacidad específicos sobre ciertas áreas de 
+                        este Sitio Web (por ejemplo, la contratación). Para obtener más detalles sobre el
+                         proceso de contratación en línea, por favor revise la declaración específica que
+                          regule esa área. Si usted tiene alguna pregunta sobre este Aviso de Privacidad,
+                           por favor póngase en Contacto con nosotros.</p>
+                </div>  
+                <div class="col-12 col-md-6 mg"> 
+                  <form>
+                    <div class="form-row">
+                      <div class="col-md-4 mb-3">
+                        <label for="validationDefault01">Nombre</label>
+                        <input type="text" class="form-control" id="validationDefault01" id='nombre' value="" required>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationDefault02">Apellidos</label>
+                        <input type="text" class="form-control" id="validationDefault02" id='apellidos' value="" required>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationDefaultUsername">Nombre de usuario</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                          </div>
+                          <input type="text" class="form-control" id="validationDefaultUsername" id='nombreUsario' value=""  aria-describedby="inputGroupPrepend2" required>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationDefault03">Ciudad</label>  
+                        <input type="text" class="form-control" id="validationDefaultUsername" id='ciudad' value=""  aria-describedby="inputGroupPrepend2" required>                        
+                        
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationDefault04">Departamento</label>
+                        <input type="text" class="form-control" id="validationDefaultUsername" id='departamento' value=""  aria-describedby="inputGroupPrepend2" required>
+                        
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationDefault05">Telefono</label>
+                        <input type="tel" name="telefono" pattern="[0-9]{9}" class="form-control" id="validationDefault05" id="telefono" value="" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                         Acepta los términos y condiciones
+                        </label>
+                      </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                  </form> 
+                </div>              
+            </div>
+        </div>  
+        </section>  
+        
+    </main>
+    <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-md-12">
+                <p>Mateo Pantoja &#169;</p>
+                <p>Mateo.pantoja07@gmail.com &#9993;</p>
+                <p>3156915647 &#9990;</p>
+                <p>Medellín,colombia</p>
+              </div>
+              
+          </div>
+      </div>
+  </footer>   
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>src= 'controladores.js'</script>
+</body>
+</html> 
